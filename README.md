@@ -20,8 +20,8 @@ It provides a RESTful API to manage tasks with full CRUD functionality.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/me-krishnaprasad-dev/simple-todo.git
-cd simple-todo
+git clone https://github.com/me-krishnaprasad-dev/simple-todoDTO.git
+cd simple-todoDTO
 ```
 
 ### 2. Configure Environment Variables
@@ -56,10 +56,10 @@ mvn spring-boot:run
 | Method | Endpoint          | Description         |
 | :----- | :---------------- | :------------------ |
 | `GET`  | `/api/todos`      | Get all todos       |
-| `GET`  | `/api/todos/{id}` | Get todo by ID      |
-| `POST` | `/api/todos`      | Create a new todo   |
-| `PUT`  | `/api/todos/{id}` | Update a todo       |
-| `DELETE` | `/api/todos/{id}` | Delete a todo       |
+| `GET`  | `/api/todos/{id}` | Get todoDTO by ID      |
+| `POST` | `/api/todos`      | Create a new todoDTO   |
+| `PUT`  | `/api/todos/{id}` | Update a todoDTO       |
+| `DELETE` | `/api/todos/{id}` | Delete a todoDTO       |
 
 ## 📦 API Example (JSON)
 
@@ -78,7 +78,7 @@ mvn spring-boot:run
 Run PostgreSQL locally with Docker:
 
 ```bash
-docker run --name pg-todo \
+docker run --name pg-todoDTO \
   -e POSTGRES_DB=tododb \
   -e POSTGRES_USER=yourusername \
   -e POSTGRES_PASSWORD=yourpassword \

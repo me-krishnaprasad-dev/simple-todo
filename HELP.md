@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'dev.krishnaprasad.simple-todo' is invalid and this project uses 'dev.krishnaprasad.simple_todo' instead.
+* The original package name 'dev.krishnaprasad.simple-todoDTO' is invalid and this project uses 'dev.krishnaprasad.simple_todo' instead.
 
 # Getting Started
 

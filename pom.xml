@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.krishnaprasad</groupId>
-	<artifactId>simple-todo</artifactId>
+	<artifactId>simple-todoDTO</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>simple-todo</name>
-	<description>A simple todo application</description>
+	<name>simple-todoDTO</name>
+	<description>A simple todoDTO application</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -46,7 +46,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.3.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
