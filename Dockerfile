@@ -1,5 +1,5 @@
 # Stage 1: Build the application
-FROM maven:3.9.5-eclipse-temurin-17 AS builder
+FROM maven:3.9.5-eclipse-temurin-21 AS builder
 
 # Set working directory
 WORKDIR /app
@@ -11,7 +11,8 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # Stage 2: Run the application
-FROM eclipse-temurin:17-jdk-alpine
+# Use a JDK 21 image for the runtime environment
+FROM eclipse-temurin:21-jdk-alpine
 
 # Set working directory in the container
 WORKDIR /app
