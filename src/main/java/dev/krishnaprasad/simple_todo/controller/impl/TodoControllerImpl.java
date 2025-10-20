@@ -33,7 +33,7 @@ public class TodoControllerImpl implements TodoController {
      */
     @Override
     public ResponseEntity<List<TodoDTO>> getAllTodos() {
-        return null;
+        return ResponseEntity.ok(todoService.findAll());
     }
 
     /**
@@ -45,7 +45,7 @@ public class TodoControllerImpl implements TodoController {
      */
     @Override
     public ResponseEntity<TodoDTO> getTodoById(Long id) {
-        return null;
+        return ResponseEntity.ok(todoService.findById(id));
     }
 
     /**
@@ -59,7 +59,7 @@ public class TodoControllerImpl implements TodoController {
      */
     @Override
     public ResponseEntity<TodoDTO> createTodo(TodoDTO todoDTO) {
-        return null;
+        return ResponseEntity.ok(todoService.save(todoDTO));
     }
 
     /**
@@ -73,7 +73,7 @@ public class TodoControllerImpl implements TodoController {
      */
     @Override
     public ResponseEntity<TodoDTO> updateTodo(Long id, TodoDTO todoDTO) {
-        return null;
+        return ResponseEntity.ok(todoService.update(id, todoDTO));
     }
 
     /**
@@ -85,7 +85,7 @@ public class TodoControllerImpl implements TodoController {
      * with the given ID exists.
      */
     @Override
-    public ResponseEntity<Void> deleteTodo(Long id) {
-        return null;
+    public ResponseEntity<Boolean> deleteTodo(Long id) {
+        return ResponseEntity.ok(todoService.deleteById(id));
     }
 }

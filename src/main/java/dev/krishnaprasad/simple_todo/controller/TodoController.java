@@ -121,7 +121,7 @@ public interface TodoController {
     @ApiResponses(value = {
             @ApiResponse(responseCode = "204", description = "Todo deleted successfully"),
             @ApiResponse(responseCode = "404", description = "Todo not found", content = @Content)})
-    ResponseEntity<Void> deleteTodo(
+    ResponseEntity<Boolean> deleteTodo(
             @Parameter(description = "ID of the todo to delete", example = "1")
             @PathVariable Long id);
 }
