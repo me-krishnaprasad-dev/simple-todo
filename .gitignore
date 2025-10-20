@@ -25,3 +25,8 @@ replay_pid*
 
 #IJ
 .idea
+
+# maven
+.mvn
+mvnw.cmd
+mvnw
