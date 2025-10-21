@@ -88,4 +88,5 @@ docker run --name pg-todoDTO \
 
 ## 👨‍💻 Author
 
-Krishna Prasad A 
+Krishna Prasad A
+me.krishnaprasad.dev@gmail.com
