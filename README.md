@@ -4,7 +4,7 @@ A basic ToDo list application built with **Java**, **Spring Boot**, and **Postgr
 It provides a RESTful API to manage tasks with full CRUD functionality.
 
 `
-
+ 
 ## 🛠️ Tech Stack
 
 - Java 25
