@@ -10,7 +10,7 @@ It provides a RESTful API to manage tasks with full CRUD functionality.
 - Java 25 
 - Spring Boot
 - Spring Data JPA
-- PostgreSQL
+- PostgreSQL 
 - Maven
 
 ---
