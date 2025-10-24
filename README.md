@@ -7,7 +7,7 @@ It provides a RESTful API to manage tasks with full CRUD functionality.
  
 ## 🛠️ Tech Stack  
 
-- Java 25 
+- Java 25  
 - Spring Boot
 - Spring Data JPA
 - PostgreSQL 
