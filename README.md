@@ -1,6 +1,6 @@
 # 📝 Simple ToDo Application
 
-A basic ToDo list application built with **Java**, **Spring Boot**, and **PostgreSQL**. 
+A basic ToDo list application built with **Java**, **Spring Boot**, and **PostgreSQL**.   
 It provides a RESTful API to manage tasks with full CRUD functionality.
 
 ` 
